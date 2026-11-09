@@ -1,0 +1,4 @@
+/bazel-*
+/disk_cache/
+/output_base/
+MODULE.bazel.lock

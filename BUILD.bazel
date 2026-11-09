@@ -1,0 +1,8 @@
+load(":defs.bzl", "check_test", "gen")
+
+gen(name = "gen")
+
+check_test(
+    name = "check_test",
+    dep = ":gen",
+)
